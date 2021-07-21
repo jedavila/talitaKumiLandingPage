@@ -1,0 +1,104 @@
+.navbar{
+    list-style-type: none;
+    display:inline;
+    font-size: 12px;
+   
+}
+.navbar>li{
+    float: left;
+    text-align: center;
+    
+}
+.nav__item{
+    margin-top: 9vh;
+    margin-left: 6vh;
+}
+.nav__logo{
+    margin-top: 5vh;
+    margin-right: 15vh;
+    margin-bottom: 5vh;
+}
+.nav__logo>img{
+    width: 32vh;
+}
+.nav__btn{
+    padding-left: 6vh;
+    padding-top: 8vh;
+}
+.nav__boton{
+    width: 9vh;
+    height: 4vh;
+    background: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: none;
+}
+.historiaSect{
+    margin-top: 25vh;
+    align-items: center;
+    text-align: center;
+}
+
+.historia__Titulo{
+    font-size: 50px;
+    color:rgba(121, 7, 38, 1);
+    margin-bottom: 15px;
+    font-family: Margarine;
+}
+.histText{
+    color: #069DD8;
+    margin-top: 20%;
+}
+.padre{
+    display: table;
+}
+.alRit{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* Footer */
+.footerSection{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    align-items: center;
+    text-align: center;
+}
+.footerSection>img{
+    width:300px;
+    height: 100px;
+}
+.containerFoot{
+    list-style: none;
+}
+.footerSection>hr{
+    background-color: black;
+    border: 2px solid black;
+}
+.redesSociales>a{
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+.containerFoot{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.footNav{
+    width: 40%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 30%;
+}
+
+.nav__boton:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.nav__item:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
