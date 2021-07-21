@@ -11,9 +11,9 @@ const routes: Routes = [
   {path:'', component: InicioComponent },
   {path:'historia', component: HistoriaComponent },
   {path:'game', component: GameComponent },
-  {path:'game/resta', component: RestaComponent },
-  {path:'game/multi', component: MultiplicacionComponent },
-  {path:'game/divide', component: DivisionComponent },
+  {path:'resta', component: RestaComponent },
+  {path:'multi', component: MultiplicacionComponent },
+  {path:'divide', component: DivisionComponent },
 
 ];
 
@@ -22,4 +22,10 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents =[ InicioComponent, HistoriaComponent]
+export const routingComponents =[ 
+  InicioComponent, 
+  HistoriaComponent, 
+  GameComponent, 
+  RestaComponent, 
+  MultiplicacionComponent, 
+  DivisionComponent]

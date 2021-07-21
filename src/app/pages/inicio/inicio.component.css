@@ -20,6 +20,10 @@
     float: left;
     text-align: center;
 }
+.footNav>ul>a{
+    text-decoration: none; /* no underline */
+    color: black;
+}
 .navbar>li{
     
     float: left;

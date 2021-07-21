@@ -9,6 +9,16 @@
     text-align: center;
     
 }
+.navbar>a>li{
+    text-decoration: none; /* no underline */
+    color: black;
+    float: left;
+    text-align: center;
+}
+.footNav>ul>a{
+    text-decoration: none; /* no underline */
+    color: black;
+}
 .nav__item{
     margin-top: 9vh;
     margin-left: 6vh;
